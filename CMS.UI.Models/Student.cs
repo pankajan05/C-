@@ -11,7 +11,14 @@ namespace CMS.UI.Models
             id= x;
         }
 
-       
+        public string Student_Name{
+            get {
+                return Name;
+            }
+            set {
+                Name = value;
+            }
+        }
 
     
     }
