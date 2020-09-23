@@ -1,6 +1,6 @@
-namespace CMS.UI.Models.obj
+namespace CMS.UI.Models
 {
-    public class staff
+    public class Staff
     {
         
     }

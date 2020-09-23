@@ -1,5 +1,5 @@
-﻿using System;
-using CMS.UI.Models;
+﻿
+using CMS.UI.Models; 
 
 namespace CMS.Application
 {
@@ -7,7 +7,9 @@ namespace CMS.Application
     {
         static void Main(string[] args)
         {
-            Student studen = new Student();
+            Student student = new Student(1);
+            Staff staff = new Staff();
+        
         }
     }
 }
