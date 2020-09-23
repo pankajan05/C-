@@ -4,7 +4,7 @@ namespace CMS.UI.Models
 {
     public class Student
     {
-        private string Name = "";
+        public string Name = "";
         public int id;
 
         public Student(int x) {
@@ -18,6 +18,10 @@ namespace CMS.UI.Models
             set {
                 Name = value;
             }
+        }
+
+        public string sing() {
+            return "Rain, rain, go away\n Come again another day\n Daddy wants to play\n Rain, rain go away\n Rain, rain, go away\n Come again another day\n Mommy wants to play\n Rain, rain, go away";
         }
 
     
