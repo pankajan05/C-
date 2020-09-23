@@ -1,6 +1,5 @@
 ﻿
-using CMS.UI.Models;
-using CMS.UI.Models.obj;
+using CMS.UI.Models; 
 
 namespace CMS.Application
 {
@@ -8,7 +7,7 @@ namespace CMS.Application
     {
         static void Main(string[] args)
         {
-            Student studen = new Student();
+            Student student = new Student();
             Staff staff = new Staff();
         
         }
