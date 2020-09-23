@@ -2,7 +2,7 @@
 
 namespace CMS.UI.Models
 {
-    public class Class1
+    public class Student
     {
     }
 }
