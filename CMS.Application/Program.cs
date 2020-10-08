@@ -15,6 +15,7 @@ namespace CMS.Application
             Staff staff = new Staff();
 
             Course SoftwareEngineering = new Course();
+            SoftwareEngineering.CourseName= "Software Engineering";
 
             Student pankajan = new Student(10011){
                 FirstName = "Pankajan",
@@ -25,6 +26,12 @@ namespace CMS.Application
             Console.WriteLine(pankajan.max_sports);
             Console.WriteLine(Student.School);
             Console.WriteLine(pankajan.getFullName());
+
+            int x = 10;
+            int y = 20;
+            int total = 0;
+            SoftwareEngineering.calculate(x,ref y,out total);
+            Console.WriteLine(total);
         
         }
     }
