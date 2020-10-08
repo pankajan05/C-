@@ -12,6 +12,8 @@ namespace CMS.UI.Models
 
         public readonly int max_sports = 2; //we can change the value in constructor only
 
+        public static string School = "Jaffna Hindu College";
+
         public Student(int x) {
             id= x;
             max_sports = 5;
