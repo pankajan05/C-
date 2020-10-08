@@ -33,6 +33,8 @@ namespace CMS.UI.Models
             return "Rain, rain, go away\n Come again another day\n Daddy wants to play\n Rain, rain go away\n Rain, rain, go away\n Come again another day\n Mommy wants to play\n Rain, rain, go away";
         }
 
-    
+        public string getFullName(){
+            return $"{FirstName} {LastName}";
+        }
     }
 }

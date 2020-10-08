@@ -24,7 +24,7 @@ namespace CMS.Application
 
             Console.WriteLine(pankajan.max_sports);
             Console.WriteLine(Student.School);
-            Console.WriteLine(pankajan.getFullName())
+            Console.WriteLine(pankajan.getFullName());
         
         }
     }
