@@ -4,19 +4,24 @@ namespace CMS.UI.Models
 {
     public class Student
     {
-        public string Name = "";
-        public int id;
+        public string FirstName = default;
+        public string LastName = string.Empty;
+        public int id = 10000;
 
         public Student(int x) {
             id= x;
         }
 
+        public Student(){
+            
+        }
+
         public string Student_Name{
             get {
-                return Name;
+                return FirstName;
             }
             set {
-                Name = value;
+                FirstName = value;
             }
         }
 
