@@ -36,5 +36,9 @@ namespace CMS.UI.Models
         public string getFullName(){
             return $"{FirstName} {LastName}";
         }
+
+        ~Student(){
+            Console.WriteLine("object is destroyed");
+        }
     }
 }
