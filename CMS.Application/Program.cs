@@ -16,11 +16,13 @@ namespace CMS.Application
 
             Course SoftwareEngineering = new Course();
 
-            Student Pankajan = new Student(){
+            Student Pankajan = new Student(10011){
                 FirstName = "Pankajan",
                 LastName = "Satkunam",
                 id = 10011
             };
+
+            Console.WriteLine(Pankajan.max_sports);
         
         }
     }

@@ -8,13 +8,15 @@ namespace CMS.UI.Models
         public string LastName = string.Empty;
         public int id = 10000;
 
+        public const int max_course = 3;    //only assign a value at initilization time
+
+        public readonly int max_sports = 2; //we can change the value in constructor only
+
         public Student(int x) {
             id= x;
+            max_sports = 5;
         }
 
-        public Student(){
-            
-        }
 
         public string Student_Name{
             get {
