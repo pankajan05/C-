@@ -4,7 +4,7 @@ namespace CMS.UI.Models
 {
     public class Student
     {
-        public string FirstName = default;
+        public string FirstName {get; set;} = default;
         public string LastName = string.Empty;
         public int id = 10000;
 
