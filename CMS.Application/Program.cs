@@ -32,6 +32,7 @@ namespace CMS.Application
             Console.WriteLine(total);
 
             Staff.print();
+            Staff.print("this is printed by overloading");
         
         }
     }

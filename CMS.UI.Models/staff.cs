@@ -8,6 +8,8 @@ namespace CMS.UI.Models
             Console.WriteLine("This is printed using static method and static class");
         }
 
-       
+        public static void print(string x){
+            Console.WriteLine(x);
+        }
     }
 }
