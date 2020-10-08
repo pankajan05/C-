@@ -8,7 +8,11 @@ namespace CMS.Application
         static void Main(string[] args)
         {
             Student student = new Student(1);
+            student.Name = "pankajan";
+            
             Staff staff = new Staff();
+
+            Course SoftwareEngineering = new Course();
         
         }
     }
