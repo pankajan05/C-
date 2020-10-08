@@ -1,7 +1,13 @@
+using System;
+
 namespace CMS.UI.Models
 {
-    public class Staff
+    public static class Staff
     {
-        
+        public static void print(){
+            Console.WriteLine("This is printed using static method and static class");
+        }
+
+       
     }
 }

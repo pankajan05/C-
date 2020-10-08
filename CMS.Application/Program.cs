@@ -11,8 +11,6 @@ namespace CMS.Application
             Student student = new Student(1);
             student.FirstName = "pankajan";
             Console.WriteLine(student.FirstName);
-            
-            Staff staff = new Staff();
 
             Course SoftwareEngineering = new Course();
             SoftwareEngineering.CourseName= "Software Engineering";
@@ -32,6 +30,8 @@ namespace CMS.Application
             int total = 0;
             SoftwareEngineering.calculate(x,ref y,out total);
             Console.WriteLine(total);
+
+            Staff.print();
         
         }
     }
