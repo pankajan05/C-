@@ -1,0 +1,9 @@
+D:\cnet\C#\CMS.UI.Models\obj\Debug\netstandard2.0\CMS.UI.Models.csprojAssemblyReference.cache
+D:\cnet\C#\CMS.UI.Models\obj\Debug\netstandard2.0\CMS.UI.Models.AssemblyInfoInputs.cache
+D:\cnet\C#\CMS.UI.Models\obj\Debug\netstandard2.0\CMS.UI.Models.AssemblyInfo.cs
+D:\cnet\C#\CMS.UI.Models\obj\Debug\netstandard2.0\CMS.UI.Models.csproj.CoreCompileInputs.cache
+D:\cnet\C#\CMS.UI.Models\bin\Debug\netstandard2.0\CMS.UI.Models.deps.json
+D:\cnet\C#\CMS.UI.Models\bin\Debug\netstandard2.0\CMS.UI.Models.dll
+D:\cnet\C#\CMS.UI.Models\bin\Debug\netstandard2.0\CMS.UI.Models.pdb
+D:\cnet\C#\CMS.UI.Models\obj\Debug\netstandard2.0\CMS.UI.Models.dll
+D:\cnet\C#\CMS.UI.Models\obj\Debug\netstandard2.0\CMS.UI.Models.pdb
