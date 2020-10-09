@@ -1,0 +1,16 @@
+D:\cnet\C#\CMS.Application\obj\Debug\netcoreapp3.1\CMS.Application.csprojAssemblyReference.cache
+D:\cnet\C#\CMS.Application\obj\Debug\netcoreapp3.1\CMS.Application.AssemblyInfoInputs.cache
+D:\cnet\C#\CMS.Application\obj\Debug\netcoreapp3.1\CMS.Application.AssemblyInfo.cs
+D:\cnet\C#\CMS.Application\obj\Debug\netcoreapp3.1\CMS.Application.csproj.CoreCompileInputs.cache
+D:\cnet\C#\CMS.Application\bin\Debug\netcoreapp3.1\CMS.Application.exe
+D:\cnet\C#\CMS.Application\bin\Debug\netcoreapp3.1\CMS.Application.deps.json
+D:\cnet\C#\CMS.Application\bin\Debug\netcoreapp3.1\CMS.Application.runtimeconfig.json
+D:\cnet\C#\CMS.Application\bin\Debug\netcoreapp3.1\CMS.Application.runtimeconfig.dev.json
+D:\cnet\C#\CMS.Application\bin\Debug\netcoreapp3.1\CMS.Application.dll
+D:\cnet\C#\CMS.Application\bin\Debug\netcoreapp3.1\CMS.Application.pdb
+D:\cnet\C#\CMS.Application\bin\Debug\netcoreapp3.1\CMS.UI.Models.dll
+D:\cnet\C#\CMS.Application\bin\Debug\netcoreapp3.1\CMS.UI.Models.pdb
+D:\cnet\C#\CMS.Application\obj\Debug\netcoreapp3.1\CMS.Application.csproj.CopyComplete
+D:\cnet\C#\CMS.Application\obj\Debug\netcoreapp3.1\CMS.Application.dll
+D:\cnet\C#\CMS.Application\obj\Debug\netcoreapp3.1\CMS.Application.pdb
+D:\cnet\C#\CMS.Application\obj\Debug\netcoreapp3.1\CMS.Application.genruntimeconfig.cache

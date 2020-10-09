@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TbHHxA8bT2uOQezYoixle2f2+VDC3vOBDBYWwQVfDaF520pd3geOki2X+UmXxldFgZQTszljwn7RwoCaw3g2YQ==",
+  "dgSpecHash": "sqASeaEt1XCKRFaMa/GbppJ2WA4YHed5C/S21Ugea0JQYcXlIeFHmZlP8n9QWHN5KGn9XYtF89bj51PvaImvdw==",
   "success": true,
   "projectFilePath": "D:\\cnet\\C#\\CMS.UI.Models\\CMS.UI.Models.csproj",
-  "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -33,6 +33,11 @@ namespace CMS.Application
 
             Staff.print();
             Staff.print("this is printed by overloading");
+
+            IStudent stu = new Student(032);
+            IStudent.getType();
+            Console.WriteLine(IStudent.No);
+            Console.WriteLine(stu.sing());
         
         }
     }
