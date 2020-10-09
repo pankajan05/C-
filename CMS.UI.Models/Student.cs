@@ -2,7 +2,9 @@
 
 namespace CMS.UI.Models
 {
-    public class Student: Person, IStudent
+    //C# use single inheritance
+    //in polymorphism it used sealed word so this class can't use as base class
+    public sealed class Student: Person, IStudent //firse we want to use the  base class after that interface 
     {
         
 
@@ -45,15 +47,15 @@ namespace CMS.UI.Models
         }
 
         //this method is hide when we use the superclass type
-        public new string getFullName(){
+        /*public new string getFullName(){
             Console.WriteLine("method that use new called");
             return $"{FirstName} {LastName}";
-        }
+        }*/
 
         //this method is use when we override base class method always this method will be use
-        /* public override  string getFullName(){
+         public sealed override  string getFullName(){
             Console.WriteLine("method that use override called");
             return $"{FirstName} {LastName}";
-        } */
+        } //this method use sealed so can't override again
     }
 }
