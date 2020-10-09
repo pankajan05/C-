@@ -20,8 +20,9 @@ namespace CMS.UI.Models
             this.id = id;
         }
 
-        //method to get the fullname
-        public string getFullName(){
+        //method to get the fullname method to override
+        public virtual string getFullName(){
+            Console.WriteLine("base class method is called");
             return $"{FirstName} {LastName}";
         }
     }

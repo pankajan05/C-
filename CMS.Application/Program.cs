@@ -53,8 +53,11 @@ namespace CMS.Application
             //type casting using explicit
             if(person is Student){
                 Student s = person as Student;  //or (Student(person)) can be usable
+                s.getFullName();
                 Console.WriteLine(s.sing());    //access the student class after typecast
             }
+
+            person.getFullName();
         
         }
     }

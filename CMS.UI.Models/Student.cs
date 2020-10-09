@@ -43,5 +43,17 @@ namespace CMS.UI.Models
         ~Student(){
             Console.WriteLine("object is destroyed");
         }
+
+        //this method is hide when we use the superclass type
+        public new string getFullName(){
+            Console.WriteLine("method that use new called");
+            return $"{FirstName} {LastName}";
+        }
+
+        //this method is use when we override base class method always this method will be use
+        /* public override  string getFullName(){
+            Console.WriteLine("method that use override called");
+            return $"{FirstName} {LastName}";
+        } */
     }
 }
