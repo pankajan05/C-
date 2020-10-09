@@ -7,10 +7,12 @@ namespace CMS.UI.Models
         public string LastName = string.Empty;
         public int id = 10000;
 
+        //default constructor
         public Person() {
 
         }
 
+        //defined constructor
         public Person(string firstName, string lastName, int id){
             Console.WriteLine("Person constructor is called");
             this.FirstName = firstName;
@@ -18,6 +20,7 @@ namespace CMS.UI.Models
             this.id = id;
         }
 
+        //method to get the fullname
         public string getFullName(){
             return $"{FirstName} {LastName}";
         }
