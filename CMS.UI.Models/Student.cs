@@ -2,11 +2,9 @@
 
 namespace CMS.UI.Models
 {
-    public class Student:IStudent
+    public class Student: Person, IStudent
     {
-        public string FirstName {get; set;} = default;
-        public string LastName = string.Empty;
-        public int id = 10000;
+        
 
         public const int max_course = 3;    //only assign a value at initilization time
 
@@ -17,6 +15,10 @@ namespace CMS.UI.Models
         public Student(int x) {
             id= x;
             max_sports = 5;
+        }
+
+        public Student(string FirstName,string LastName, int id) : base(FirstName, LastName, id){
+            Console.WriteLine("Student constructor called");
         }
 
 
@@ -33,9 +35,7 @@ namespace CMS.UI.Models
             return "Rain, rain, go away\n Come again another day\n Daddy wants to play\n Rain, rain go away\n Rain, rain, go away\n Come again another day\n Mommy wants to play\n Rain, rain, go away";
         }
 
-        public string getFullName(){
-            return $"{FirstName} {LastName}";
-        }
+        
 
         ~Student(){
             Console.WriteLine("object is destroyed");
