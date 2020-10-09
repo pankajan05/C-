@@ -2,7 +2,7 @@
 
 namespace CMS.UI.Models
 {
-    public class Student
+    public class Student:IStudent
     {
         public string FirstName {get; set;} = default;
         public string LastName = string.Empty;
