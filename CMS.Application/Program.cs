@@ -38,6 +38,12 @@ namespace CMS.Application
             IStudent.getType();
             Console.WriteLine(IStudent.No);
             Console.WriteLine(stu.sing());
+
+            Person person = new Student("tharindu", "bandara", 33);
+            if(person is Student){
+                Student s = person as Student;
+                Console.WriteLine(s.sing());
+            }
         
         }
     }
